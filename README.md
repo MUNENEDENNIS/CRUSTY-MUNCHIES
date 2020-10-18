@@ -8,14 +8,14 @@ A website that contains a variety of pizza types, sizes, crusts and toppings for
 ## Setup/Installation Requirements
 * Git clone:
 * Navigate into CRUSTY-MUNCHIES directory
-* Open the html file using Atom . or VSCode 
+* Open the html file using Atom . or VSCode
 ## Known Bugs
 No known bugs
 ## Technologies Used
 * HTML
 * CSS
 * JavaScript
-* Query
+* JQuery
 * Bootstrap
 ## Support and contact details
 For any difficulties accessing the code, comments, concerns, ideas or any form of questions. Kindly contact me at officialmunene@gmail.com
