@@ -98,7 +98,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="sel1">Select crust:</label>
+                            <label for="sel1">SELECT CRUST:</label>
                             <select class="form-control" id="crusting">
                                 <option value="1">Cripsy-100</option>
                                 <option value="2">Stuffed-120</option>
@@ -106,7 +106,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="sel1">Select topping:</label>
+                            <label for="sel1">SELECT TOPPING:</label>
                             <select class="form-control" id="top">
                                 <option value="1">Pepperoni-100</option>
                                 <option value="2">Mushrooms-120</option>
@@ -114,3 +114,23 @@
                                 <option value="4">Bacon-200</option>
                             </select>
                         </div>
+                        <div class="form-group" required>
+                           <label for="sel1">QUANTITY:</label>
+                           <input type="number" id="quantity" class="form-control" min="1" required>
+                       </div>
+                       <div class="form-group" required="">
+                           <label for="sel1">DELIVERY OPTION:</label>
+                           <select class="form-control" id="delivery">
+                               <option value="1">NO DELIVERY</option>
+                               <option value="2">DELIVERY</option>
+                           </select>
+                       </div>
+                       <div class="form-group">
+                           <button type="submit" class="btn btn-info btn-block" onclick="submit()">MAKE AN ORDER</button>
+                       </div>
+                   </form>
+               </div>
+           </div>
+       </div>
+   </div>
+   <br>
