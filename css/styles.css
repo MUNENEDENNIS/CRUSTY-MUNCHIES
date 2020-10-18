@@ -7,7 +7,6 @@
     background:grey;
   }
   #home {
-<<<<<<< HEAD
     background-image: url(../css/img/CRUSTY4.jpg);
     height: 91vh;
     background-size: cover;
@@ -37,10 +36,3 @@
    -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: black;
  }
-=======
-    background-image: url(../css/img/CRUSTY-MUNCHIES1.jpg);
-    height: 91vh;
-    background-size: cover;
-    background-attachment: fixed;
-  }
->>>>>>> f058a5fac6ed00fec4145ee11a79b1c3f796bad4
