@@ -19,7 +19,7 @@ function validateForm() {
         $("#myForm").toggle("5000")
     });
 });
-function Results (type,size,crust,toppings) {
+function Results (Type,Size,Crust,Toppings) {
     this.type = type;
     this.size= size;
     this.crust= crust;
@@ -27,4 +27,14 @@ function Results (type,size,crust,toppings) {
 };
 Results.prototype.order = function() {
     return "You have ordered..." + this.type + " pizza  with " + this.toppings + " as toppings and " + this.crust + " for crust ."
+};
+function TotalPrice (Price,  Quantity, Delivery,Toppings,Crust) {
+    this.price= price;
+    this.quantity=quantity;
+    this.delivery=delivery;
+    this.toppings=toppings;
+    this.crust=crust;
+};
+TotalPrice.prototype.finalTotal = function () {
+    return ( this.price + this.delivery + this.toppings + this.crust )* this.quantity ;
 };
