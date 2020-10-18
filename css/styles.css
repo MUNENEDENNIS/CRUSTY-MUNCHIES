@@ -6,3 +6,9 @@
   .navbar a:hover {
     background:grey;
   }
+  #home {
+    background-image: url(../css/img/CRUSTY-MUNCHIES1.jpg);
+    height: 91vh;
+    background-size: cover;
+    background-attachment: fixed;
+  }
