@@ -12,11 +12,11 @@ A website that contains a variety of pizza types, sizes, crusts and toppings for
 ## Known Bugs
 No known bugs
 ## Technologies Used
-*HTML
-*CSS
-*JavaScript
-*Query
-*Bootstrap
+* HTML
+* CSS
+* JavaScript
+* Query
+* Bootstrap
 ## Support and contact details
 For any difficulties accessing the code, comments, concerns, ideas or any form of questions. Kindly contact me at officialmunene@gmail.com
 ### License
