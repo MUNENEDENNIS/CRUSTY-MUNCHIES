@@ -44,3 +44,10 @@
  h5 {
    color:blue;
  }
+ #mnu{
+       text-align: center;
+       color:white;
+   }
+   #myForm {
+     display:none;
+   }
