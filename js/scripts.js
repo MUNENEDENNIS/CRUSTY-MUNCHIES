@@ -14,3 +14,17 @@ function validateForm() {
     }
     event.preventDefault();
   }
+  $(document).ready(function(){
+    $("#checky").click(function(){
+        $("#myForm").toggle("5000")
+    });
+});
+function Results (type,size,crust,toppings) {
+    this.type = type;
+    this.size= size;
+    this.crust= crust;
+    this.toppings=toppings;
+};
+Results.prototype.order = function() {
+    return "You have ordered..." + this.type + " pizza  with " + this.toppings + " as toppings and " + this.crust + " for crust ."
+};
